@@ -27,7 +27,6 @@ jobs:
 
       - name: 🚀 Build app
         run: |
-            eas init
             eas build --non-interactive --platform android
 
             eas update --auto
