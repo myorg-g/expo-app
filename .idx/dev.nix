@@ -8,6 +8,7 @@
     pkgs.nodejs_20
     pkgs.android-tools
     pkgs.android-studio
+    pkgs.corepack_20
 
   ];
   # Sets environment variables in the workspace
