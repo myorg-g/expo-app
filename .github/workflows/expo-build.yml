@@ -26,7 +26,5 @@ jobs:
         run: yarn install
 
       - name: 🚀 Build app
-        run: |
-            eas build --non-interactive --platform android
-
-            eas update --auto
+        run: 
+          eas update --auto
