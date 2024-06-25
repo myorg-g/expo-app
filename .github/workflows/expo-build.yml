@@ -28,4 +28,4 @@ jobs:
       - name: 🚀 Build app
         run: 
           eas build --non-interactive --platform android
-          eas update --auto
+          # eas update --auto
